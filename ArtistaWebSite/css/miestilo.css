@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body{
+	background-color: black;
+	padding: 5vw;
+}
+
+h1{
+	color: #FFFFFF;
+	font-family: 'Sacramento';
+	text-align: center;
+	font-size: 5vw;
+	margin-top: 0vw;
+}
+
+h2{
+	color: #FFFFFF;
+	font-family: 'Sacramento';
+	text-align: left;
+	font-size: 3vw;
+	margin-top: 8vw;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Raleway';
+	font-size: 2vw;	
+	text-align: justify;
+}
+ul{
+	font-family: 'Raleway';
+	font-size: 2vw;
+	color: white;
+}
+table{
+	font-family: 'Raleway';
+	color: white;
+	font-size: 2vw;
+	border-collapse: collapse;
+  	width: 100%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+tr:hover{
+	background-color: rgba(255,255,255,0.1);
+}
+
+#portada{
+	background-image: url('../img/Boris.jpg');
+	width: 100%;
+	height: 40vw;
+	background-position: center;
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+  	margin-bottom: 10vw;
+}
+.lanzamientos{
+	width: 25vw;
+}
+.redes{
+	width: 8vw;
+	margin: 5vw;
+}
