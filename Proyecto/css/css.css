@@ -1,0 +1,46 @@
+
+h2{
+	text-align: center;
+    font-family: 'Sacramento';
+    font-size: 4vw;
+    margin-top: 0vw;
+}
+
+h5{
+	color: #f81ee1;
+	font-size: 2.5vw;
+}
+ 
+h1{
+	text-align: center;
+	font-size: 4.5vw;
+
+}
+
+p{
+	font-size: 1.5vw;
+	text-align: justify-all;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ul{
+	color: black;
+	font-family: Raleway;
+}
